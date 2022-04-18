@@ -1,0 +1,163 @@
+{
+  "status": 200,
+  "message": "Sucessful",
+  "data": {
+    "generated_at": "2022-04-18T06:21:03+00:00",
+    "schema": "http://schemas.sportradar.com/bsa/cricket/v1/json/endpoints/cricket/match_timeline.json",
+    "sport_event": {
+      "id": "sr:match:32483539",
+      "scheduled": "2022-04-17T14:00:00+00:00",
+      "start_time_tbd": false,
+      "tournament_round": {
+        "type": "group",
+        "number": 1
+      },
+      "season": {
+        "id": "sr:season:91319",
+        "name": "Indian Premier League 2022",
+        "start_date": "2022-03-26",
+        "end_date": "2022-05-29",
+        "year": "2022",
+        "tournament_id": "sr:tournament:2472"
+      },
+      "tournament": {
+        "id": "sr:tournament:2472",
+        "name": "Indian Premier League",
+        "sport": {
+          "id": "sr:sport:21",
+          "name": "Cricket"
+        },
+        "category": {
+          "id": "sr:category:497",
+          "name": "India",
+          "country_code": "IND"
+        },
+        "type": "t20",
+        "gender": "men"
+      },
+      "competitors": [
+        {
+          "id": "sr:competitor:877927",
+          "name": "Gujarat Titans",
+          "country": "India",
+          "country_code": "IND",
+          "abbreviation": "GT",
+          "qualifier": "home"
+        },
+        {
+          "id": "sr:competitor:152334",
+          "name": "Chennai Super Kings",
+          "country": "India",
+          "country_code": "IND",
+          "abbreviation": "CSK",
+          "qualifier": "away"
+        }
+      ],
+      "venue": {
+        "id": "sr:venue:19689",
+        "name": "Maharashtra Cricket Association Stadium",
+        "capacity": 55000,
+        "city_name": "Pune",
+        "country_name": "India",
+        "map_coordinates": "18.674444,73.706389",
+        "country_code": "IND",
+        "bowling_ends": [
+          {
+            "name": "Pavilion End"
+          },
+          {
+            "name": "Hill End"
+          }
+        ]
+      }
+    },
+    "sport_event_conditions": {
+      "day_night": "day/night",
+      "type": "t20",
+      "weather_info": {
+        "weather_conditions": "raining"
+      },
+      "pitch_info": {
+        "pitch_conditions": "dry"
+      },
+      "outfield_info": {
+        "outfield_conditions": "fast"
+      },
+      "referees": {
+        "referee": {
+          "id": "sr:referee:661430",
+          "name": "Kutty, Vengalil Narayan"
+        },
+        "umpires": [
+          {
+            "id": "sr:umpire:645114",
+            "number": 1,
+            "name": "Ananthapadmanabhan, KN",
+            "type": "on_field"
+          },
+          {
+            "id": "sr:umpire:651758",
+            "number": 2,
+            "name": "Gandhe, Ulhas",
+            "type": "on_field"
+          },
+          {
+            "id": "sr:umpire:744334",
+            "number": 3,
+            "name": "Oxenford, Bruce",
+            "type": "3rd"
+          }
+        ]
+      }
+    },
+    "sport_event_status": {
+      "match_status": "ended",
+      "status": "closed",
+      "toss_won_by": "sr:competitor:877927",
+      "toss_decision": "bowl",
+      "display_score": "170/7",
+      "display_overs": 19.5,
+      "current_inning": 2,
+      "winner_id": "sr:competitor:877927",
+      "match_result": "Gujarat Titans beat Chennai Super Kings by 3 wickets",
+      "match_result_type": "w",
+      "run_rate": "8.57",
+      "margin": 3,
+      "allotted_overs": 20,
+      "target": 170,
+      "equation": "Gujarat Titans beat Chennai Super Kings by 3 wickets",
+      "period_scores": [
+        {
+          "away_score": 169,
+          "away_wickets": 5,
+          "display_score": "169/5",
+          "display_overs": 20,
+          "type": "inning",
+          "number": 1,
+          "allotted_overs": 20
+        },
+        {
+          "home_score": 170,
+          "home_wickets": 7,
+          "display_score": "170/7",
+          "display_overs": 19.5,
+          "type": "inning",
+          "number": 2,
+          "allotted_overs": 20
+        }
+      ]
+    },
+    "coverage_info": {
+      "live_coverage": true,
+      "level": "8"
+    },
+    "statistics": {
+      "man_of_the_match": [
+        {
+          "id": "sr:player:662292",
+          "name": "Miller, David"
+        }
+      ]
+    }
+  }
+}
